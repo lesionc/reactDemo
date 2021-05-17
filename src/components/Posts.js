@@ -14,7 +14,7 @@ class Posts extends Component {
 
   componentDidMount() {
     var self = this;
-    axios.get('https://jsonplaceholder.typicode.com/posts?userId=1')
+    axios.get('https://jsonplaceholder.typicode.com/posts?userId=2')
           .then(function (response) {
             self.setState({posts:response.data, loading: false});
           })

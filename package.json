@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "antd": "^4.15.5",
     "axios": "^0.18.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
