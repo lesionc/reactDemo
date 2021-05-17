@@ -27,9 +27,9 @@ function Form() {
   });
 
   const handleSubmit = useCallback(() => {
-    const currentText = textRef.current; // 从 ref 读取它
+    const currentText = textRef.current;
     alert(currentText);
-  }, [textRef]); // 不要像 [text] 那样重新创建 handleSubmit
+  }, [textRef]);
 
   return (
       <>
